@@ -24,6 +24,7 @@ let package = Package(
         .library(name: "OpenCombineDispatch", targets: ["OpenCombineDispatch"]),
         .library(name: "OpenCombineFoundation", targets: ["OpenCombineFoundation"]),
         .library(name: "OpenCombineShim", targets: ["OpenCombineShim"]),
+        .library(name: "Combine", targets: ["OpenCombineShim"]),
     ],
     targets: [
         .target(name: "COpenCombineHelpers"),
